@@ -2,7 +2,8 @@
 Once this has been successfully started on Vagrant, build an export bundle of all configs:
 
 ```sh
-$ tar cfz /vagrant/neovim-offline.tar.gz ~/.config/nvim ~/.local/share/nvim
+$ tar cfz neovim-offline.tar.gz .config/nvim .local/share/nvim
+$ mv neovim-offline.tar.gz /vagrant/
 ```
 
 # TinyVim
