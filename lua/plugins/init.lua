@@ -151,6 +151,11 @@ local plugins = {
       require("gitsigns").setup()
     end,
   },
+
+  {
+    "cappyzawa/trim.nvim",
+    opts = {}
+  },
 }
 
 require("lazy").setup(plugins, require "lazy_config")

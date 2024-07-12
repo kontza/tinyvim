@@ -15,12 +15,15 @@ o.tabstop = 2
 o.softtabstop = 2
 
 vim.opt.fillchars = { eob = " " }
+vim.opt.list = true
+vim.opt.listchars = "eol:¬,tab:>·,trail:~,extends:>,precedes:<,nbsp:+"
 o.ignorecase = true
 o.smartcase = true
-o.mouse = "a"
+o.mouse = ""
 
 -- Numbers
 o.number = true
+o.relativenumber = true
 
 o.signcolumn = "yes"
 o.splitbelow = true
