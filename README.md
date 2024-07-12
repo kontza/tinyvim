@@ -1,3 +1,10 @@
+# Preface
+Once this has been successfully started on Vagrant, build an export bundle of all configs:
+
+```sh
+$ tar cfz /vagrant/neovim-offline.tar.gz ~/.config/nvim ~/.local/share/nvim
+```
+
 # TinyVim
 - Minimal Neovim config meant to be a starting point for new neovim users.
 
@@ -29,7 +36,7 @@ git clone https://github.com/NvChad/tinyvim $HOME\AppData\Local\nvim --depth 1 &
             └── ( more ... )
 ```
 # About
-- Dont expect this config to be beautiful or blazing fast (no hardcore lazyloading is done)! 
+- Dont expect this config to be beautiful or blazing fast (no hardcore lazyloading is done)!
 - I'm just using some plugins with their default configs
 - This config only uses only lesser plugins which I think are important for any config.
 
